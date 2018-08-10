@@ -1,0 +1,23 @@
+Manifest-Version: 1.0
+Built-By: ciyun
+Class-Path: fabric-sdk-java-1.2.0.jar grpc-netty-1.13.2.jar grpc-core-
+ 1.13.2.jar grpc-context-1.13.2.jar error_prone_annotations-2.1.2.jar 
+ jsr305-3.0.0.jar opencensus-api-0.12.3.jar opencensus-contrib-grpc-me
+ trics-0.12.3.jar netty-codec-http2-4.1.25.Final.jar netty-codec-http-
+ 4.1.25.Final.jar netty-codec-4.1.25.Final.jar netty-handler-4.1.25.Fi
+ nal.jar netty-buffer-4.1.25.Final.jar netty-common-4.1.25.Final.jar n
+ etty-handler-proxy-4.1.25.Final.jar netty-transport-4.1.25.Final.jar 
+ netty-resolver-4.1.25.Final.jar netty-codec-socks-4.1.25.Final.jar gr
+ pc-protobuf-1.13.2.jar guava-20.0.jar proto-google-common-protos-1.0.
+ 0.jar grpc-protobuf-lite-1.13.2.jar grpc-stub-1.13.2.jar netty-tcnati
+ ve-boringssl-static-2.0.10.Final.jar protobuf-java-3.6.0.jar protobuf
+ -java-util-3.6.0.jar gson-2.7.jar bcpkix-jdk15on-1.60.jar bcprov-jdk1
+ 5on-1.60.jar commons-logging-1.2.jar commons-cli-1.4.jar commons-comp
+ ress-1.17.jar commons-io-2.6.jar log4j-1.2.17.jar apache-log4j-extras
+ -1.2.17.jar httpclient-4.5.6.jar httpcore-4.4.10.jar commons-codec-1.
+ 10.jar javax.json-1.1.2.jar javax.json-api-1.1.2.jar snakeyaml-1.21.j
+ ar
+Build-Jdk: 1.8.0_144
+Created-By: Maven Integration for Eclipse
+Main-Class: com.iciyun.blockchain.aToB100.App
+

@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="https://maven.apache.org/surefire/maven-surefire-plugin/xsd/surefire-test-report.xsd" name="com.iciyun.blockchain.aToB100.AppTest" time="0.009" tests="1" errors="0" skipped="0" failures="0">
+  <properties>
+    <property name="sun.desktop" value="windows"/>
+    <property name="awt.toolkit" value="sun.awt.windows.WToolkit"/>
+    <property name="file.encoding.pkg" value="sun.io"/>
+    <property name="java.specification.version" value="1.8"/>
+    <property name="sun.cpu.isalist" value="amd64"/>
+    <property name="sun.jnu.encoding" value="GBK"/>
+    <property name="java.class.path" value="D:\workspace-sts\aToB100\target\test-classes;D:\workspace-sts\aToB100\target\classes;D:\CiYun\maven\repo\junit\junit\3.8.1\junit-3.8.1.jar;D:\CiYun\maven\repo\org\hyperledger\fabric-sdk-java\fabric-sdk-java\1.2.0\fabric-sdk-java-1.2.0.jar;D:\CiYun\maven\repo\io\grpc\grpc-netty\1.13.2\grpc-netty-1.13.2.jar;D:\CiYun\maven\repo\io\grpc\grpc-core\1.13.2\grpc-core-1.13.2.jar;D:\CiYun\maven\repo\io\grpc\grpc-context\1.13.2\grpc-context-1.13.2.jar;D:\CiYun\maven\repo\com\google\errorprone\error_prone_annotations\2.1.2\error_prone_annotations-2.1.2.jar;D:\CiYun\maven\repo\com\google\code\findbugs\jsr305\3.0.0\jsr305-3.0.0.jar;D:\CiYun\maven\repo\io\opencensus\opencensus-api\0.12.3\opencensus-api-0.12.3.jar;D:\CiYun\maven\repo\io\opencensus\opencensus-contrib-grpc-metrics\0.12.3\opencensus-contrib-grpc-metrics-0.12.3.jar;D:\CiYun\maven\repo\io\netty\netty-codec-http2\4.1.25.Final\netty-codec-http2-4.1.25.Final.jar;D:\CiYun\maven\repo\io\netty\netty-codec-http\4.1.25.Final\netty-codec-http-4.1.25.Final.jar;D:\CiYun\maven\repo\io\netty\netty-codec\4.1.25.Final\netty-codec-4.1.25.Final.jar;D:\CiYun\maven\repo\io\netty\netty-handler\4.1.25.Final\netty-handler-4.1.25.Final.jar;D:\CiYun\maven\repo\io\netty\netty-buffer\4.1.25.Final\netty-buffer-4.1.25.Final.jar;D:\CiYun\maven\repo\io\netty\netty-common\4.1.25.Final\netty-common-4.1.25.Final.jar;D:\CiYun\maven\repo\io\netty\netty-handler-proxy\4.1.25.Final\netty-handler-proxy-4.1.25.Final.jar;D:\CiYun\maven\repo\io\netty\netty-transport\4.1.25.Final\netty-transport-4.1.25.Final.jar;D:\CiYun\maven\repo\io\netty\netty-resolver\4.1.25.Final\netty-resolver-4.1.25.Final.jar;D:\CiYun\maven\repo\io\netty\netty-codec-socks\4.1.25.Final\netty-codec-socks-4.1.25.Final.jar;D:\CiYun\maven\repo\io\grpc\grpc-protobuf\1.13.2\grpc-protobuf-1.13.2.jar;D:\CiYun\maven\repo\com\google\guava\guava\20.0\guava-20.0.jar;D:\CiYun\maven\repo\com\google\api\grpc\proto-google-common-protos\1.0.0\proto-google-common-protos-1.0.0.jar;D:\CiYun\maven\repo\io\grpc\grpc-protobuf-lite\1.13.2\grpc-protobuf-lite-1.13.2.jar;D:\CiYun\maven\repo\io\grpc\grpc-stub\1.13.2\grpc-stub-1.13.2.jar;D:\CiYun\maven\repo\io\netty\netty-tcnative-boringssl-static\2.0.10.Final\netty-tcnative-boringssl-static-2.0.10.Final.jar;D:\CiYun\maven\repo\com\google\protobuf\protobuf-java\3.6.0\protobuf-java-3.6.0.jar;D:\CiYun\maven\repo\com\google\protobuf\protobuf-java-util\3.6.0\protobuf-java-util-3.6.0.jar;D:\CiYun\maven\repo\com\google\code\gson\gson\2.7\gson-2.7.jar;D:\CiYun\maven\repo\org\bouncycastle\bcpkix-jdk15on\1.60\bcpkix-jdk15on-1.60.jar;D:\CiYun\maven\repo\org\bouncycastle\bcprov-jdk15on\1.60\bcprov-jdk15on-1.60.jar;D:\CiYun\maven\repo\commons-logging\commons-logging\1.2\commons-logging-1.2.jar;D:\CiYun\maven\repo\commons-cli\commons-cli\1.4\commons-cli-1.4.jar;D:\CiYun\maven\repo\org\apache\commons\commons-compress\1.17\commons-compress-1.17.jar;D:\CiYun\maven\repo\commons-io\commons-io\2.6\commons-io-2.6.jar;D:\CiYun\maven\repo\log4j\log4j\1.2.17\log4j-1.2.17.jar;D:\CiYun\maven\repo\log4j\apache-log4j-extras\1.2.17\apache-log4j-extras-1.2.17.jar;D:\CiYun\maven\repo\org\apache\httpcomponents\httpclient\4.5.6\httpclient-4.5.6.jar;D:\CiYun\maven\repo\org\apache\httpcomponents\httpcore\4.4.10\httpcore-4.4.10.jar;D:\CiYun\maven\repo\commons-codec\commons-codec\1.10\commons-codec-1.10.jar;D:\CiYun\maven\repo\org\glassfish\javax.json\1.1.2\javax.json-1.1.2.jar;D:\CiYun\maven\repo\javax\json\javax.json-api\1.1.2\javax.json-api-1.1.2.jar;D:\CiYun\maven\repo\org\yaml\snakeyaml\1.21\snakeyaml-1.21.jar;"/>
+    <property name="java.vm.vendor" value="Oracle Corporation"/>
+    <property name="sun.arch.data.model" value="64"/>
+    <property name="user.variant" value=""/>
+    <property name="java.vendor.url" value="http://java.oracle.com/"/>
+    <property name="user.timezone" value=""/>
+    <property name="java.vm.specification.version" value="1.8"/>
+    <property name="os.name" value="Windows 10"/>
+    <property name="user.country" value="CN"/>
+    <property name="sun.java.launcher" value="SUN_STANDARD"/>
+    <property name="sun.boot.library.path" value="D:\Java\jdk1.8.0_144\jre\bin"/>
+    <property name="sun.java.command" value="C:\Users\ciyun\AppData\Local\Temp\surefire185629456460362315\surefirebooter8124580637690124892.jar C:\Users\ciyun\AppData\Local\Temp\surefire185629456460362315 2018-08-10T17-31-45_498-jvmRun1 surefire4188420429343218337tmp surefire_07281573345757976056tmp"/>
+    <property name="surefire.test.class.path" value="D:\workspace-sts\aToB100\target\test-classes;D:\workspace-sts\aToB100\target\classes;D:\CiYun\maven\repo\junit\junit\3.8.1\junit-3.8.1.jar;D:\CiYun\maven\repo\org\hyperledger\fabric-sdk-java\fabric-sdk-java\1.2.0\fabric-sdk-java-1.2.0.jar;D:\CiYun\maven\repo\io\grpc\grpc-netty\1.13.2\grpc-netty-1.13.2.jar;D:\CiYun\maven\repo\io\grpc\grpc-core\1.13.2\grpc-core-1.13.2.jar;D:\CiYun\maven\repo\io\grpc\grpc-context\1.13.2\grpc-context-1.13.2.jar;D:\CiYun\maven\repo\com\google\errorprone\error_prone_annotations\2.1.2\error_prone_annotations-2.1.2.jar;D:\CiYun\maven\repo\com\google\code\findbugs\jsr305\3.0.0\jsr305-3.0.0.jar;D:\CiYun\maven\repo\io\opencensus\opencensus-api\0.12.3\opencensus-api-0.12.3.jar;D:\CiYun\maven\repo\io\opencensus\opencensus-contrib-grpc-metrics\0.12.3\opencensus-contrib-grpc-metrics-0.12.3.jar;D:\CiYun\maven\repo\io\netty\netty-codec-http2\4.1.25.Final\netty-codec-http2-4.1.25.Final.jar;D:\CiYun\maven\repo\io\netty\netty-codec-http\4.1.25.Final\netty-codec-http-4.1.25.Final.jar;D:\CiYun\maven\repo\io\netty\netty-codec\4.1.25.Final\netty-codec-4.1.25.Final.jar;D:\CiYun\maven\repo\io\netty\netty-handler\4.1.25.Final\netty-handler-4.1.25.Final.jar;D:\CiYun\maven\repo\io\netty\netty-buffer\4.1.25.Final\netty-buffer-4.1.25.Final.jar;D:\CiYun\maven\repo\io\netty\netty-common\4.1.25.Final\netty-common-4.1.25.Final.jar;D:\CiYun\maven\repo\io\netty\netty-handler-proxy\4.1.25.Final\netty-handler-proxy-4.1.25.Final.jar;D:\CiYun\maven\repo\io\netty\netty-transport\4.1.25.Final\netty-transport-4.1.25.Final.jar;D:\CiYun\maven\repo\io\netty\netty-resolver\4.1.25.Final\netty-resolver-4.1.25.Final.jar;D:\CiYun\maven\repo\io\netty\netty-codec-socks\4.1.25.Final\netty-codec-socks-4.1.25.Final.jar;D:\CiYun\maven\repo\io\grpc\grpc-protobuf\1.13.2\grpc-protobuf-1.13.2.jar;D:\CiYun\maven\repo\com\google\guava\guava\20.0\guava-20.0.jar;D:\CiYun\maven\repo\com\google\api\grpc\proto-google-common-protos\1.0.0\proto-google-common-protos-1.0.0.jar;D:\CiYun\maven\repo\io\grpc\grpc-protobuf-lite\1.13.2\grpc-protobuf-lite-1.13.2.jar;D:\CiYun\maven\repo\io\grpc\grpc-stub\1.13.2\grpc-stub-1.13.2.jar;D:\CiYun\maven\repo\io\netty\netty-tcnative-boringssl-static\2.0.10.Final\netty-tcnative-boringssl-static-2.0.10.Final.jar;D:\CiYun\maven\repo\com\google\protobuf\protobuf-java\3.6.0\protobuf-java-3.6.0.jar;D:\CiYun\maven\repo\com\google\protobuf\protobuf-java-util\3.6.0\protobuf-java-util-3.6.0.jar;D:\CiYun\maven\repo\com\google\code\gson\gson\2.7\gson-2.7.jar;D:\CiYun\maven\repo\org\bouncycastle\bcpkix-jdk15on\1.60\bcpkix-jdk15on-1.60.jar;D:\CiYun\maven\repo\org\bouncycastle\bcprov-jdk15on\1.60\bcprov-jdk15on-1.60.jar;D:\CiYun\maven\repo\commons-logging\commons-logging\1.2\commons-logging-1.2.jar;D:\CiYun\maven\repo\commons-cli\commons-cli\1.4\commons-cli-1.4.jar;D:\CiYun\maven\repo\org\apache\commons\commons-compress\1.17\commons-compress-1.17.jar;D:\CiYun\maven\repo\commons-io\commons-io\2.6\commons-io-2.6.jar;D:\CiYun\maven\repo\log4j\log4j\1.2.17\log4j-1.2.17.jar;D:\CiYun\maven\repo\log4j\apache-log4j-extras\1.2.17\apache-log4j-extras-1.2.17.jar;D:\CiYun\maven\repo\org\apache\httpcomponents\httpclient\4.5.6\httpclient-4.5.6.jar;D:\CiYun\maven\repo\org\apache\httpcomponents\httpcore\4.4.10\httpcore-4.4.10.jar;D:\CiYun\maven\repo\commons-codec\commons-codec\1.10\commons-codec-1.10.jar;D:\CiYun\maven\repo\org\glassfish\javax.json\1.1.2\javax.json-1.1.2.jar;D:\CiYun\maven\repo\javax\json\javax.json-api\1.1.2\javax.json-api-1.1.2.jar;D:\CiYun\maven\repo\org\yaml\snakeyaml\1.21\snakeyaml-1.21.jar;"/>
+    <property name="sun.cpu.endian" value="little"/>
+    <property name="user.home" value="C:\Users\ciyun"/>
+    <property name="user.language" value="zh"/>
+    <property name="java.specification.vendor" value="Oracle Corporation"/>
+    <property name="java.home" value="D:\Java\jdk1.8.0_144\jre"/>
+    <property name="basedir" value="D:\workspace-sts\aToB100"/>
+    <property name="file.separator" value="\"/>
+    <property name="line.separator" value="&#10;"/>
+    <property name="java.vm.specification.vendor" value="Oracle Corporation"/>
+    <property name="java.specification.name" value="Java Platform API Specification"/>
+    <property name="java.awt.graphicsenv" value="sun.awt.Win32GraphicsEnvironment"/>
+    <property name="surefire.real.class.path" value="C:\Users\ciyun\AppData\Local\Temp\surefire185629456460362315\surefirebooter8124580637690124892.jar"/>
+    <property name="sun.boot.class.path" value="D:\Java\jdk1.8.0_144\jre\lib\resources.jar;D:\Java\jdk1.8.0_144\jre\lib\rt.jar;D:\Java\jdk1.8.0_144\jre\lib\sunrsasign.jar;D:\Java\jdk1.8.0_144\jre\lib\jsse.jar;D:\Java\jdk1.8.0_144\jre\lib\jce.jar;D:\Java\jdk1.8.0_144\jre\lib\charsets.jar;D:\Java\jdk1.8.0_144\jre\lib\jfr.jar;D:\Java\jdk1.8.0_144\jre\classes"/>
+    <property name="user.script" value=""/>
+    <property name="sun.management.compiler" value="HotSpot 64-Bit Tiered Compilers"/>
+    <property name="java.runtime.version" value="1.8.0_144-b01"/>
+    <property name="user.name" value="ciyun"/>
+    <property name="path.separator" value=";"/>
+    <property name="os.version" value="10.0"/>
+    <property name="java.endorsed.dirs" value="D:\Java\jdk1.8.0_144\jre\lib\endorsed"/>
+    <property name="java.runtime.name" value="Java(TM) SE Runtime Environment"/>
+    <property name="file.encoding" value="GBK"/>
+    <property name="java.vm.name" value="Java HotSpot(TM) 64-Bit Server VM"/>
+    <property name="localRepository" value="D:\CiYun\maven\repo"/>
+    <property name="java.vendor.url.bug" value="http://bugreport.sun.com/bugreport/"/>
+    <property name="java.io.tmpdir" value="C:\Users\ciyun\AppData\Local\Temp\"/>
+    <property name="java.version" value="1.8.0_144"/>
+    <property name="user.dir" value="D:\workspace-sts\aToB100"/>
+    <property name="os.arch" value="amd64"/>
+    <property name="java.vm.specification.name" value="Java Virtual Machine Specification"/>
+    <property name="java.awt.printerjob" value="sun.awt.windows.WPrinterJob"/>
+    <property name="sun.os.patch.level" value=""/>
+    <property name="java.library.path" value="D:\Java\jdk1.8.0_144\jre\bin;C:\WINDOWS\Sun\Java\bin;C:\WINDOWS\system32;C:\WINDOWS;D:/Java/jdk1.8.0_144/bin/../jre/bin/server;D:/Java/jdk1.8.0_144/bin/../jre/bin;D:/Java/jdk1.8.0_144/bin/../jre/lib/amd64;D:\Java\jdk1.8.0_144\bin;D:\Java\jdk1.8.0_144\jre\bin;D:\apache-maven-3.5.2-bin\apache-maven-3.5.2\bin;C:\Windows\System32;C:\WINDOWS\system32;C:\WINDOWS;C:\WINDOWS\System32\Wbem;C:\WINDOWS\System32\WindowsPowerShell\v1.0\;C:\Program Files\dotnet\;C:\WINDOWS\System32\OpenSSH\;C:\Program Files\TortoiseGit\bin;C:\Program Files\Microsoft VS Code\bin;C:\Program Files\nodejs\;C:\Users\ciyun\AppData\Local\Microsoft\WindowsApps;D:\curl-7.57.0\I386;D:\Program Files\Git\bin;D:\apache-maven-3.5.2\bin;C:\Users\ciyun\AppData\Roaming\npm;C:\Go\bin;;D:\sts-bundle\sts-3.9.5.RELEASE;;."/>
+    <property name="java.vm.info" value="mixed mode"/>
+    <property name="java.vendor" value="Oracle Corporation"/>
+    <property name="java.vm.version" value="25.144-b01"/>
+    <property name="java.ext.dirs" value="D:\Java\jdk1.8.0_144\jre\lib\ext;C:\WINDOWS\Sun\Java\lib\ext"/>
+    <property name="sun.io.unicode.encoding" value="UnicodeLittle"/>
+    <property name="java.class.version" value="52.0"/>
+  </properties>
+  <testcase name="testApp" classname="com.iciyun.blockchain.aToB100.AppTest" time="0.001"/>
+</testsuite>
